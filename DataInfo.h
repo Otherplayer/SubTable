@@ -8,6 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
-@interface DataSource : NSObject
+@interface DataInfo : NSObject
 
+@property (nonatomic, strong)NSDictionary *dataDic;
+@property (nonatomic, unsafe_unretained) BOOL isOpened;
+@property (nonatomic, strong)NSString *identifier;
 @end

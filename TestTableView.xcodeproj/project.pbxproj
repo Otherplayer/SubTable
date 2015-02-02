@@ -14,6 +14,8 @@
 		630C06281A5672560030FFCA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 630C06271A5672560030FFCA /* Images.xcassets */; };
 		630C062B1A5672560030FFCA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 630C06291A5672560030FFCA /* LaunchScreen.xib */; };
 		630C06371A5672560030FFCA /* TestTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 630C06361A5672560030FFCA /* TestTableViewTests.m */; };
+		636E85681A7F4A70008F104C /* UIButton+Create.m in Sources */ = {isa = PBXBuildFile; fileRef = 636E85671A7F4A70008F104C /* UIButton+Create.m */; };
+		636E856E1A7F4C49008F104C /* DataInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 636E856D1A7F4C49008F104C /* DataInfo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		630C06301A5672560030FFCA /* TestTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		630C06351A5672560030FFCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		630C06361A5672560030FFCA /* TestTableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTableViewTests.m; sourceTree = "<group>"; };
+		636E85661A7F4A70008F104C /* UIButton+Create.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Create.h"; sourceTree = "<group>"; };
+		636E85671A7F4A70008F104C /* UIButton+Create.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Create.m"; sourceTree = "<group>"; };
+		636E856C1A7F4C49008F104C /* DataInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DataInfo.h; path = ../DataInfo.h; sourceTree = "<group>"; };
+		636E856D1A7F4C49008F104C /* DataInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DataInfo.m; path = ../DataInfo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,8 @@
 				630C061F1A5672560030FFCA /* AppDelegate.m */,
 				630C06211A5672560030FFCA /* ViewController.h */,
 				630C06221A5672560030FFCA /* ViewController.m */,
+				636E856C1A7F4C49008F104C /* DataInfo.h */,
+				636E856D1A7F4C49008F104C /* DataInfo.m */,
 				630C06241A5672560030FFCA /* Main.storyboard */,
 				630C06271A5672560030FFCA /* Images.xcassets */,
 				630C06291A5672560030FFCA /* LaunchScreen.xib */,
@@ -96,6 +104,8 @@
 		630C061A1A5672560030FFCA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				636E85661A7F4A70008F104C /* UIButton+Create.h */,
+				636E85671A7F4A70008F104C /* UIButton+Create.m */,
 				630C061B1A5672560030FFCA /* Info.plist */,
 				630C061C1A5672560030FFCA /* main.m */,
 			);
@@ -220,6 +230,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				630C06231A5672560030FFCA /* ViewController.m in Sources */,
+				636E856E1A7F4C49008F104C /* DataInfo.m in Sources */,
+				636E85681A7F4A70008F104C /* UIButton+Create.m in Sources */,
 				630C06201A5672560030FFCA /* AppDelegate.m in Sources */,
 				630C061D1A5672560030FFCA /* main.m in Sources */,
 			);
@@ -412,6 +424,7 @@
 				630C063C1A5672560030FFCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		630C063D1A5672560030FFCA /* Build configuration list for PBXNativeTarget "TestTableViewTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +433,7 @@
 				630C063F1A5672560030FFCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

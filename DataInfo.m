@@ -6,8 +6,8 @@
 //  Copyright (c) 2015年 __无邪_. All rights reserved.
 //
 
-#import "DataSource.h"
+#import "DataInfo.h"
 
-@implementation DataSource
+@implementation DataInfo
 
 @end
